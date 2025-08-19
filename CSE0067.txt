@@ -1,0 +1,12 @@
+# This is a comment
+print("Hello, world!") 
+
+def greet(name):
+    """
+    This function greets the given name.
+    """
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    message = greet("Python User")
+    print(message)
